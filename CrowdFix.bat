@@ -1,0 +1,17 @@
+@echo off
+title CrowdFix by eramic@hotmail.com
+
+:: BY: www.linkedin.com/in/eramic
+color 0A
+
+echo =============================================
+echo           Welcome to CrowdFix
+echo          by eramic@hotmail.com
+echo for those affected by Crowdstrike Falcon Senzor Update problem
+echo          this is not official fix
+echo =============================================
+echo.
+timeout /t 3 /nobreak >nul
+cd %windir%
+del /f /q C-00000291*.sys
+shutdown /r /t 1
