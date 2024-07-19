@@ -16,7 +16,7 @@ This BAT script is provided as a temporary workaround in response to a global BS
    - Restart the affected Windows system.
    - Boot into Safe Mode with Networking. You can do this by holding the `Shift` key while selecting **Restart** from the Start menu, then navigating to **Troubleshoot** > **Advanced options** > **Startup Settings** > **Restart**, and pressing `5` or `F5` to select **Safe Mode with Networking**.
 
-4. **Execute the Script**
+4. **Execute the Script AS ADMINISTRATOR**
    - If using a USB drive, insert it into the affected system.
    - Open Command Prompt with administrative privileges.
    - Run the BAT file from the USB drive or UNC path. For example:
