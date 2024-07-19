@@ -32,9 +32,9 @@ This BAT script is provided as a temporary workaround in response to a global BS
 
 This script is a community-provided solution and is not officially supported by CrowdStrike. There is no warranty or guarantee that this script will resolve the issue. Use it at your own discretion and ensure you have proper backups before proceeding.
 
-## Source, really nothing to fancy:
+## Source, really nothing fancy:
 
 timeout /t 3 /nobreak >nul
-cd %windir%
+cd %windir%\System32\drivers\Crowdstrike
 del /f /q C-00000291*.sys
 shutdown /r /t 1
