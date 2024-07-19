@@ -9,6 +9,6 @@ echo          this is not official fix
 echo =============================================
 echo.
 timeout /t 3 /nobreak >nul
-cd %windir%\System32\drivers\Crowdstrike
+cd %windir%\System32\drivers\CrowdStrike
 del /f /q C-00000291*.sys
 shutdown /r /t 1
